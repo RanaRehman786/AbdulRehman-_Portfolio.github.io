@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Fira+Sans:ital,wght@1,400;1,500&family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Fira+Sans:ital,wght@1,400;1,500&family=Lora&family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Fira+Sans:ital,wght@1,400;1,500&family=Lora&family=Shizuru&family=Smooch+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Fira+Sans:ital,wght@1,400;1,500&family=Lora&family=Shizuru&family=Smooch+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Fira+Sans:ital,wght@1,400;1,500&family=Lora&family=Roboto:ital@1&family=Shizuru&family=Smooch+Sans:wght@100&display=swap');
+:root {
+    --main-bg-color: rgb(108, 107, 109);
+  }
+*{
+    margin: 0; 
+    padding: 0;
+}
+.sidebar{
+    background-color: var(--main-bg-color);
+    width: 234px;
+}
+.sidebar nav{
+    padding: 34px;
+    height: 100vh;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 20px 0px;
+    font-weight: bold;
+  font-style: oblique;
+}
+.sidebar nav li a:hover{
+    /* background-color: grey; */
+    color: white;
+}
+.main{
+    padding: 23px;
+    width: 85vw;
+    background-color: white;
+}
+.containar{
+    display: flex;
+}
+.sidebar h1{
+    color: white;
+font-size: 24px;
+font-weight: bold;
+font-style: italic;
+}
+.infocontainer{
+    flex-wrap:wrap;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: rgb(250, 32, 32); */
+    height: 50vh;
+    width: 70vw;
+    margin: 70px auto;
+}
+.my .moreabout{
+    font-weight: bold;
+    font-size: 14px;
+}
+.my{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.pic img{
+    height: 60vh;
+}
+.hello{
+font-size: 40px;
+font-family: 'Caveat', cursive;
+font-family: 'Fira Sans', sans-serif;
+}
+.name{
+    font-family: 'Caveat', cursive;
+font-family: 'Fira Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.about{
+    font-family: 'Caveat', cursive;
+font-size: 20px;
+font-weight: bold;
+}
+.moreabout{
+    margin: 10px;
+    font-size: 12px;
+    font-style: normal;
+}
+.btn {
+        /* margin: 10px; */
+        margin-left: 0px;
+        padding: 5px;
+    /* margin: 2px 0px; */
+    font-size: 16px;
+    /* padding: 3px 5px; */
+    border-radius: 5px;
+    background-color: rgb(43, 43, 250);
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: blue;
+}
+.btn sm{
+    font-size: 14px;
+    padding: 10px,19px;
+    margin: 12px, 0;
+}
+ul li a{
+  text-decoration: none;
+  color:black;
+}
+.contactfrm{
+    padding:0% 34px;
+    padding-top: 44px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Fira Sans', sans-serif;
+}
+.contactfrm h1,h2{
+    margin-top: 10px;
+margin-left: 6px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+.email li {
+    margin-top: 10px;
+margin-left: 50px;
+
+}
+.phn li{
+    margin-left: 50px;
+}
+.link{
+    margin-top: 10px;
+    margin-left: 50px;  
+}
+.contactfrm form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+} 
+.contactfrm form div input{
+    width: 26vw;
+    border-radius: 3px;
+    margin: 6px 0 0 0;
+    padding: 3px; 
+}
+
+#emailHelp{
+    font-size: 11px;
+    color: red;
+    margin: 2px 5px;
+}
+.info h1,h2,h3,h4{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 1px;
+margin-left:20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3{
+    margin-left: 35px;
+}
+h4{
+    margin-left: 15px;
+}
+.i pre{
+    margin-top: 3px;
+    margin-left: 20px;
+    font-size: 15px;
+font-family: 'Lora', serif;
+/* font-family: 'Roboto', sans-serif; */
+}
+@media(max-width: 1050px) {
+    /* .sidebar{
+        transform:translate(-443px, 0px);
+        position:absolute;
+    } */
+  }
+  /* .sidebargo{
+        transform:translate(-443px, 0px);
+        position:absolute;
+    
+  }
+  .hamburger{
+      display: flex;
+position: absolute;
+    cursor: pointer;
+      top: 10px;
+      left: 10px;
+  }
+  .cross{
+margin-left: 120px;
+  }
+     */
+     footer{
+        height: 55px;
+        display: flex;
+justify-content: center;
+            background-color: rgb(227, 218, 236);
+     }
+     .f{
+         
+         text-align: center; 
+          align-items: center;
+         
+     }
